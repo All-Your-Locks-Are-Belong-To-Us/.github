@@ -28,7 +28,7 @@ We modified the following components of the Solo 2 firmware and tools to include
 - [lpc55-host](https://github.com/All-Your-Locks-Are-Belong-To-Us/lpc55-host/tree/fix/configure-pfr)
 
 To test our firmware changes and simulate a lock, we developed a small suite of tools for FIDO2.
-Even though the CTAP2.1 standard specifies DEFLATE (RFC 1951) for large blob compression, Chromium uses GZIP (RFC 1952). Therefore, we added GZIP compression to the `libfido2` for now. We will file a bug for Chromium to address this behavior.
+Even though the CTAP2.1 standard specifies DEFLATE (RFC 1951) for large blob compression, Chromium uses GZIP (RFC 1952). Therefore, we added GZIP compression to the `libfido2` for now. We filed [a bug report](https://bugs.chromium.org/p/chromium/issues/detail?id=1312802) for Chromium to address this behavior.
 
 - [**fido2-debug-client**](https://github.com/All-Your-Locks-Are-Belong-To-Us/fido2-debug-client)
 - [libfido2](https://github.com/All-Your-Locks-Are-Belong-To-Us/libfido2/tree/feature/large-blob-use-gzip)
