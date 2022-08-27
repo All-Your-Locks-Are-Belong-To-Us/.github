@@ -1,6 +1,6 @@
 # Using FIDO2 In Electronic Locking Systems 🔐
 
-<img src="profile/img/unlock.jpeg" alt="Unlocking an electronic lock using a FIDO2 hardware authenticator" width="50%">
+<img src="profile/img/unlock.jpeg" alt="Unlocking an electronic access reader using a FIDO2 hardware authenticator" width="50%">
 
 This group is a result of the 2021/22 *Hot Topics in Secure Identity Research* seminar and the 2022 *Behavioral Authentication and Physical Access Management* seminar at the [Hasso-Plattner-Institute (HPI)](https://hpi.de/).
 
@@ -50,6 +50,8 @@ In the 2022 summer semester we built upon the previous project and **implemented
 The library was inspired by [libfido2](https://github.com/Yubico/libfido2/) and we ran it on the AVR ATmega1284P, the nRF52480 and the ESP32-C3FN4 microcontrollers.
 
 With this library, the existing structure from the previous semester can be used on microcontrollers, thus the access control can be implemented on electronic door cylinders.
+
+<img src="profile/img/unlock-cylinder.jpg" alt="Unlocking an electronic locking cylinder using a FIDO2 hardware authenticator" width="50%">
 
 ### Repository overview
 
