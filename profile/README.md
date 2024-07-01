@@ -1,6 +1,6 @@
 # Using FIDO2 In Electronic Locking Systems 🔐
 
-<img src="profile/img/unlock.jpeg" alt="Unlocking an electronic access reader using a FIDO2 hardware authenticator" width="50%">
+<img src="img/unlock.jpeg" alt="Unlocking an electronic access reader using a FIDO2 hardware authenticator" width="50%">
 
 This group is a result of the 2021/22 *Hot Topics in Secure Identity Research* seminar and the 2022 *Behavioral Authentication and Physical Access Management* seminar at the [Hasso-Plattner-Institute (HPI)](https://hpi.de/).
 
@@ -14,7 +14,7 @@ of concept.
 It uses a [Solo 2 hacker edition](https://solokeys.com/) as the FIDO2 authenticator, an ACR-122U NFC reader, a Raspberry Pi 3B+, and some status LEDs.
 The access rights are written onto the authenticator using a custom web application and Chromium.
 
-<img src="profile/img/poc.png" alt="Proof of concept consisting of a Solo 2, ACR-122U and Raspberry Pi" width="50%">
+<img src="img/poc.png" alt="Proof of concept consisting of a Solo 2, ACR-122U and Raspberry Pi" width="50%">
 
 ### Repository Overview
 
@@ -51,7 +51,7 @@ The library was inspired by [libfido2](https://github.com/Yubico/libfido2/) and 
 
 With this library, the existing structure from the previous semester can be used on microcontrollers, thus the access control can be implemented on electronic door cylinders.
 
-<img src="profile/img/unlock-cylinder.jpg" alt="Unlocking an electronic locking cylinder using a FIDO2 hardware authenticator" width="50%">
+<img src="img/unlock-cylinder.jpg" alt="Unlocking an electronic locking cylinder using a FIDO2 hardware authenticator" width="50%">
 
 ### Repository overview
 
